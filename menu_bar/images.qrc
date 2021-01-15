@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix4">
+        <file alias="a.bnp">images/10.jpg</file>
+        <file>images/11.jpg</file>
+        <file>images/12.jpg</file>
+    </qresource>
+</RCC>
