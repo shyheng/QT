@@ -19,6 +19,15 @@ protected:
     void mousePressEvent(QMouseEvent *event);
     void mouseMoveEvent(QMouseEvent *event);
 
+    void wheelEvent(QWheelEvent *event);
+
+    void keyPressEvent(QKeyEvent *event);
+
+    void resizeEvent(QResizeEvent *event);
+
+    void enterEvent(QEvent *event);
+    void leaveEvent(QEvent *event);
+
 private:
     Ui::Widget *ui;
 };
